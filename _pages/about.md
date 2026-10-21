@@ -8,17 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student in Computer Science at [Old Dominion University](https://www.odu.edu), Norfolk, VA. My research focuses on **Explainable AI (XAI)** and **Hypothesis-driven AI** for biomedical research.
+I am a Ph.D. student in Computer Science at Old Dominion University, working at the intersection of machine learning, explainable AI, computational biology, and trustworthy scientific workflows.
 
-I am particularly interested in the intersection of large language models (LLMs) and genomics. My current work involves leveraging foundational models like **scGPT** and **Geneformer** to analyze single-cell genomics data, specifically for Alzheimer's disease research (using ROSMAP data). I am also exploring the application of transformer architectures to modeling and understanding biological sequences.
+My biomedical research focuses on biological foundation models and single-cell transcriptomics. I study how models such as scGPT represent disease-related and donor-level information, how well they generalize across cohorts, and how their predictions and explanations can be evaluated in Alzheimer’s disease research using ROSMAP and SEA-AD data.
 
-Beyond my core research, I have a strong foundation in deep learning and transformer architectures, with a particular focus on understanding their mathematical foundations.
+I also work on trustworthy agentic workflows for scientific computing, focusing on reproducibility, evidence-based validation, provenance, and safeguards for AI-assisted analyses.
 
 ### Research Interests
 
-- **Single-Cell Genomics:** Applying foundational models to scRNA-seq and scATAC-seq data.
-- **Explainable AI:** Developing transparent models for biomedical decision-making.
-- **LLM Architectures:** Investigating classification heads, tokenization strategies, and attention mechanisms.
+- Explainable and interpretable AI for biomedical research
+- Biological foundation models and single-cell transcriptomics
+- Cross-cohort and distribution-shift generalization
+- Donor-level disease prediction and representation learning
+- Trustworthy and reproducible scientific AI workflows
+- Transformer architectures for biological and scientific data
+- Evidence-grounded and hypothesis-driven machine learning
 
 ### Technical Skills
 
@@ -28,9 +32,17 @@ Beyond my core research, I have a strong foundation in deep learning and transfo
 
 ### Current Projects
 
-- **Alzheimer's Disease Analysis:** Leveraging Deep Learning (including LLMs) and other Machine Learning models for Alzheimer's disease prediction using ROSMAP data.
-<!-- - **LLM Architectures:** Comparative analysis of classification heads for single-cell foundational models. -->
+#### Cross-Cohort Evaluation of a Single-Cell Foundation Model
 
+Evaluated scGPT for Alzheimer’s disease prediction across independent ROSMAP and SEA-AD cohorts. The study examined cross-cohort transfer, gene-panel selection, donor-level prediction, representation analysis, attribution stability, and biological concordance.
+
+Accepted for presentation: AAAI 2026 Fall Symposium Series, AT-AI4H-NW track.
+
+#### Trustworthy Agentic Scientific Workflows
+
+Developed a framework for controlling the release of results from AI-assisted scientific workflows using DAG structure, validation checks, provenance tracking, failure containment, and risk-aware release decisions.
+
+Preprint: Structure Before Intelligence: Gating What Agentic Scientific Workflows Release (https://arxiv.org/abs/2610.19507)
 ---
 
 _Feel free to explore my [publications](/publications/), [talks](/talks/), or [CV](/cv/) using the menu above._
