@@ -32,13 +32,13 @@ I also work on trustworthy agentic workflows for scientific computing, focusing 
 
 ### Current Projects
 
-#### Cross-Cohort Evaluation of a Single-Cell Foundation Model
+### Cross-Cohort Evaluation of a Single-Cell Foundation Model
 
 Evaluated scGPT for Alzheimer’s disease prediction across independent ROSMAP and SEA-AD cohorts. The study examined cross-cohort transfer, gene-panel selection, donor-level prediction, representation analysis, attribution stability, and biological concordance.
 
 Accepted for presentation: AAAI 2026 Fall Symposium Series, AT-AI4H-NW track.
 
-#### Trustworthy Agentic Scientific Workflows
+### Trustworthy Agentic Scientific Workflows
 
 Developed a framework for controlling the release of results from AI-assisted scientific workflows using DAG structure, validation checks, provenance tracking, failure containment, and risk-aware release decisions.
 
